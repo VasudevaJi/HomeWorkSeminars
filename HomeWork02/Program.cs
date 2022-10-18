@@ -47,11 +47,12 @@ else
     int thirddigit = FindThirDig(usernum);
     Console.WriteLine($"The third digit from {usernum} is {thirddigit}");
 }
-
 */
+
 
 ////  Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
+/*
 bool WeekendOrNot(int day)
 {
     if(day == 6 || day == 7)
@@ -80,5 +81,14 @@ if(userday > 7 || userday < 1)
 }
 else
 {
-    int re
+    bool res = WeekendOrNot(userday);
+    if(res == true)
+    {
+        Console.WriteLine("This is weekend");
+    }
+    else
+    {
+        Console.WriteLine("This is NOT weekend");
+    }
 }
+*/
